@@ -1,0 +1,31 @@
+@import url('style.css');
+
+body {
+    font-family: "Courier New", monospace;
+    background: #fafafa;
+    color: #222;
+}
+
+.law-title {
+    color: #8d2a4b;
+    font-size: 180%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.law-toc {
+    background: #fff;
+    border: 2px dashed #8d2a4b;
+    padding: 0.5em;
+    columns: 2 auto;
+}
+
+.law-part, .law-section, .law-subsection, .law-subsubsection {
+    text-align: left;
+    margin: 1em;
+}
+
+.law-indent:not(:empty), .law-indent div:not(:empty) {
+    padding-inline-start: 5em;
+    text-indent: -5em;
+}

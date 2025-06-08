@@ -1,0 +1,30 @@
+@import url('style.css');
+
+body {
+    background: #1e1e1e;
+    color: #e0e0e0;
+    font-family: "Arial", sans-serif;
+}
+
+.law-title {
+    color: #ffcc00;
+    font-size: 190%;
+    text-shadow: 1px 1px 2px black;
+}
+
+.law-toc {
+    background: #333;
+    border: 1px solid #555;
+    padding: 1em;
+    columns: 2 auto;
+}
+
+.law-part, .law-section, .law-subsection, .law-subsubsection {
+    color: #ffcc00;
+    text-align: center;
+}
+
+.law-indent:not(:empty), .law-indent div:not(:empty) {
+    padding-inline-start: 2em;
+    text-indent: -2em;
+}
