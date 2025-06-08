@@ -1,0 +1,34 @@
+@import url('style.css');
+
+body {
+    background: #f0f4f8 url('https://upload.wikimedia.org/wikipedia/commons/4/48/BLANK_ICON.png') repeat;
+    font-family: "Times New Roman", serif;
+    line-height: 1.4;
+}
+
+.law-title {
+    color: #2f4f4f;
+    font-size: 195%;
+    text-align: center;
+    border-top: 4px double #2f4f4f;
+    border-bottom: 4px double #2f4f4f;
+    padding: 0.3em 0;
+}
+
+.law-toc {
+    background: #dfefff;
+    padding: 1em;
+    border-radius: 6px;
+    columns: 1 auto;
+}
+
+.law-part, .law-section, .law-subsection, .law-subsubsection {
+    font-style: italic;
+    margin: 1em 0;
+    text-align: right;
+}
+
+.law-indent:not(:empty), .law-indent div:not(:empty) {
+    padding-inline-start: 6em;
+    text-indent: -6em;
+}
